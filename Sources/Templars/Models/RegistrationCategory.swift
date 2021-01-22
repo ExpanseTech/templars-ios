@@ -8,15 +8,15 @@
 import Foundation
 
 public struct RegistrationCategory {
-    let id: String
-    let createdAt: Date
-    let updatedAt: Date
-    let active: Bool
-    let name: String
-    let slug: String
-    let description: String?
-    let isPublic: Bool
-    let price: Double
+    public let id: String
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let active: Bool
+    public let name: String
+    public let slug: String
+    public let description: String?
+    public let isPublic: Bool
+    public let price: Double
     
     enum CodingKeys: String, CodingKey {
         case id

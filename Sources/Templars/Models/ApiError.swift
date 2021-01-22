@@ -8,5 +8,6 @@
 import Foundation
 
 public struct ApiError: Decodable, Error {
-    let message: String
+    public let property: String
+    public let message: String
 }

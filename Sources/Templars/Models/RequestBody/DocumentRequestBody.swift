@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension RequestBody{
+public extension RequestBody{
     
     struct CreateDocument: Codable {
         let name: String
@@ -15,5 +15,14 @@ extension RequestBody{
         let fields: String
         let customerReference: String
         let categoryId: String
+        
+        public init(name: String, draft: String, fields: String,
+                    customerReference: String, categoryId: String){
+            self.name = name
+            self.draft = draft
+            self.fields = fields
+            self.customerReference = customerReference
+            self.categoryId = categoryId
+        }
     }
 }

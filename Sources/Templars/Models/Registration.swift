@@ -8,17 +8,17 @@
 import Foundation
 
 public struct Registration {
-    let id: String
-    let template: String
-    let fields: String
-    let draft: Bool
-    let status: String
-    let createdAt: Date
-    let updatedAt: Date
-    let active: Bool
-    let user: User
-    let categoryId: String
-    let userId: String
+    public let id: String
+    public let template: String
+    public let fields: String
+    public let draft: Bool
+    public let status: String
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let active: Bool
+    public let user: User
+    public let categoryId: String
+    public let userId: String
     
     enum CodingKeys: String, CodingKey {
         case id

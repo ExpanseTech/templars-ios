@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct RequestBody {
+public struct RequestBody {
     
     //MARK: Profile Request Body
-    struct UpdateProfile: Codable {
+    public struct UpdateProfile: Codable {
         let firstName: String
         let lastName: String
         let phoneNumber: String

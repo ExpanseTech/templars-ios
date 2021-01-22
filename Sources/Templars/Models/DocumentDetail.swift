@@ -8,17 +8,17 @@
 import Foundation
 
 public struct DocumentDetail {
-    let template: String
-    let name: String
-    let fields: String
-    let draft: Bool
-    let createdAt: Date
-    let updatedAt: Date
-    let active: Bool
-    let category: DocumentCategory
-    let categoryId: String
-    let user: User
-    let userId: String
+    public let template: String
+    public let name: String
+    public let fields: String
+    public let draft: Bool
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let active: Bool
+    public let category: DocumentCategory
+    public let categoryId: String
+    public let user: User
+    public let userId: String
     
     public enum SortOrder: String {
         case name = "name"

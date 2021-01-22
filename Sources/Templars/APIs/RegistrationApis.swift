@@ -10,7 +10,7 @@ import Combine
 
 @available(OSX 10.15, *)
 @available(iOS 13.0, *)
-extension Templars{
+public extension Templars{
     
     func getRegisteration(_ id: String) -> AnyPublisher<ResponseBody<Registration>, Error>{
         let urlString = String(format: URLs.Templars.getRegistration, id)

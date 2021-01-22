@@ -10,7 +10,7 @@ import Combine
 
 @available(OSX 10.15, *)
 @available(iOS 13.0, *)
-extension Templars{
+public extension Templars{
     func getSession(id: String) -> AnyPublisher<ResponseBody<Session>, Error> {
         let urlString = String(format: URLs.Templars.getSession, id)
         let url = URL(string: urlString)!
