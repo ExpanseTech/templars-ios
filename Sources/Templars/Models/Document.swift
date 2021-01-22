@@ -8,15 +8,15 @@
 import Foundation
 
 public struct Document {
-    let id: String
-    let name: String
-    let active: Bool
-    let draft: Bool
-    let categoryId: String
-    let userId: String
-    let createdAt: Date
-    let updatedAt: Date
-    let user: User
+    public let id: String
+    public let name: String
+    public let active: Bool
+    public let draft: Bool
+    public let categoryId: String
+    public let userId: String
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let user: User
     
     public enum SortOrder: String {
         case name = "name"

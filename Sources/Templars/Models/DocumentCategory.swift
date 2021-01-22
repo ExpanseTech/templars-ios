@@ -8,16 +8,16 @@
 import Foundation
 
 public struct DocumentCategory{
-    let id: String
-    let isActive: Bool
-    let createdAt: Date
-    let updatedAt: Date
-    let name: String
-    let slug: String
-    let description: String
-    let isPublic: Bool
-    let price: Double
-    let parent: [DocumentCategory]?
+    public let id: String
+    public let isActive: Bool
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let name: String
+    public let slug: String
+    public let description: String
+    public let isPublic: Bool
+    public let price: Double
+    public let parent: [DocumentCategory]?
     
     enum CodingKeys: String, CodingKey {
         case id

@@ -7,14 +7,24 @@
 
 import Foundation
 
-extension RequestBody{
+public extension RequestBody{
     struct CreateSession {
-        let title: String
-        let description: String
-        let startDate: Date
-        let count: Int
-        let type: Session.SessionType
-        let customerReference: String
+        public let title: String
+        public let description: String
+        public let startDate: Date
+        public let count: Int
+        public let type: Session.SessionType
+        public let customerReference: String
+        
+        public init(title: String, description: String, startDate: Date, count: Int,
+                    type: Session.SessionType, customerReference: String) {
+            self.title = title
+            self.description = description
+            self.startDate = startDate
+            self.count = count
+            self.type = type
+            self.customerReference = customerReference
+        }
         
         enum CodingKeys: String, CodingKey {
             case title
@@ -29,7 +39,7 @@ extension RequestBody{
 
 extension RequestBody.CreateSession: Encodable{
     
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(title, forKey: .title)
         try container.encode(description, forKey: .description)

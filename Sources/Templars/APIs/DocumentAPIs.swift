@@ -12,7 +12,7 @@ import Combine
 @available(iOS 13.0, *)
 extension Templars{
     
-    func getDocument(id: String) -> AnyPublisher<ResponseBody<DocumentDetail>, Error> {
+    public func getDocument(id: String) -> AnyPublisher<ResponseBody<DocumentDetail>, Error> {
         let url = URL(string: String(format: URLs.Templars.getDocument, id) )!
         var urlRequest = URLRequest(url: url)
         urlRequest.addAPIKey(apiKey)
@@ -20,7 +20,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    func getDocuments(page: Int, pageSize: Int, sortBy: DocumentDetail.SortOrder) -> AnyPublisher<ResponseBody<[Document]>, Error> {
+    public func getDocuments(page: Int, pageSize: Int, sortBy: DocumentDetail.SortOrder) -> AnyPublisher<ResponseBody<[Document]>, Error> {
         let url = URL(string: URLs.Templars.getDocuments)!
         
         var urlRequest = URLRequest(url: url)
@@ -32,7 +32,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<DocumentDetail, Error> {
+    public func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<DocumentDetail, Error> {
         let url = URL(string: URLs.Templars.createDocument)!
         
         var urlRequest = URLRequest(url: url)
@@ -44,7 +44,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    func updateDocument(update: String) -> AnyPublisher<DocumentDetail, Error> {
+    public func updateDocument(update: String) -> AnyPublisher<DocumentDetail, Error> {
         let url = URL(string: URLs.Templars.updateDocument)!
         
         var urlRequest = URLRequest(url: url)
@@ -54,7 +54,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    func deleteDocument(id: String) -> AnyPublisher<DocumentDetail, Error> {
+    public func deleteDocument(id: String) -> AnyPublisher<DocumentDetail, Error> {
         let url = URL(string: String(format: URLs.Templars.deleteDocument, id) )!
         
         var urlRequest = URLRequest(url: url)

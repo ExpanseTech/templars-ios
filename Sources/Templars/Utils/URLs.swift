@@ -45,7 +45,7 @@ struct URLs {
         static let createSubscriptions = "\(baseURL)/api/v1/subscriptions"
         static let getMySubscriptions = "\(baseURL)/api​/v1​/subscriptions​/me"
         static let getActiveSubscription = "\(baseURL)/api/v1/subscriptions/me/active"
-        static let endSubscription = "\(baseURL)/api​/v1​/subscriptions​/{id}​/end"
+        static let endSubscription = "\(baseURL)/api​/v1​/subscriptions​/%@/end"
         
         //MARK: Payment APIs
         

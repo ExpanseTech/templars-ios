@@ -26,14 +26,13 @@ struct NetworkHelper {
                 }
                 return try decoder.decode(T.self, from: result.data)
             }
-            .tryCatch{ error -> AnyPublisher<T, Error> in
+            .tryCatch{ error -> AnyPublisher<T, ApiError> in
 //                guard let apiError = error as? ApiError
 //                      , apiError.statusCode == 401 else{
-//                    throw error
+//                    throw URLError(.userAuthenticationRequired)
 //                }
 
-                throw error
-
+                throw ApiError(property: "", message: "")
             }
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()

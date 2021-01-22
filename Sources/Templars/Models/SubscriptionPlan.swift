@@ -8,15 +8,15 @@
 import Foundation
 
 public struct SubscriptionPlan {
-    let name: String
-    let amount: String
-    let description: String
-    let reference: String
-    let registrations: String
-    let documents: String
-    let sessions: String
-    let interval: String
-    let createdAt: String
-    let updatedAt: String
-    let active: String
+    public let name: String
+    public let amount: String
+    public let description: String
+    public let reference: String
+    public let registrations: String
+    public let documents: String
+    public let sessions: String
+    public let interval: String
+    public let createdAt: String
+    public let updatedAt: String
+    public let active: String
 }

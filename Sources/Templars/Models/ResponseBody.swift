@@ -8,9 +8,9 @@
 import Foundation
 
 public struct ResponseBody<T: Decodable>: Decodable {
-    let message: String
-    let data: T
-    let meta: Meta?
+    public let message: String
+    public let data: T
+    public let meta: Meta?
 }
 
 public struct Meta: Decodable{

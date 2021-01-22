@@ -8,16 +8,16 @@
 import Foundation
 
 public struct User {
-    var id: String
-    var createdAt: Date
-    var updatedAt: Date
-    var active: Bool
-    var firstName: String
-    var lastName : String
-    var email : String
-    var phoneNumber : String
-    var verified : Bool
-    var role : String
+    public var id: String
+    public var createdAt: Date
+    public var updatedAt: Date
+    public var active: Bool
+    public var firstName: String
+    public var lastName : String
+    public var email : String
+    public var phoneNumber : String
+    public var verified : Bool
+    public var role : String
     
     enum CodingKeys: String, CodingKey {
         case id = "id"

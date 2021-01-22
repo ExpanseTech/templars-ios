@@ -8,23 +8,24 @@
 import Foundation
 
 public struct Session {
-    let id: String
-    let title: String
-    let description: String
-    let meetingId: String
-    let meetingUrl: String
-    let startDate: String
-    let endDate: String
-    let count: Int
-    let duration: Int
-    let reschedules: Int
-    let type: SessionType
-    let status: String
-    let createdAt: Date
-    let updatedAt: Date
-    let active: Bool
-    let user: User
-    let assignee: User?
+    public let id: String
+    public let title: String
+    public let description: String
+    public let meetingId: String
+    public let meetingUrl: String
+    public let startDate: String
+    public let endDate: String
+    public let count: Int
+    public let duration: Int
+    public let reschedules: Int
+    public let type: SessionType
+    public let status: String
+    public let createdAt: Date
+    public let updatedAt: Date
+    public let isActive: Bool
+    public let user: User
+    public let customer: Customer?
+    public let subscription: Subscription?
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -41,9 +42,10 @@ public struct Session {
         case status
         case createdAt
         case updatedAt
-        case active
+        case isActive = "active"
         case user
-        case assignee
+        case customer
+        case subscription
     }
     
     public enum SessionType: String{
@@ -78,8 +80,10 @@ extension Session: Decodable{
         status = try value.decode(String.self, forKey: .status)
         createdAt = try value.decode(String.self, forKey: .createdAt).toDate()!
         updatedAt = try value.decode(String.self, forKey: .updatedAt).toDate()!
-        active = try value.decode(Bool.self, forKey: .active)
+        isActive = try value.decode(Bool.self, forKey: .isActive)
         user = try value.decode(User.self, forKey: .user)
-        assignee = try value.decode(User?.self, forKey: .assignee)
+        
+        customer = try value.decodeIfPresent(Customer.self, forKey: .customer)
+        subscription = try value.decodeIfPresent(Subscription.self, forKey: .subscription)
     }
 }
