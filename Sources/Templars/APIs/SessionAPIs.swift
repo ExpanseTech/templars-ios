@@ -29,13 +29,25 @@ public extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    func createSession(session: RequestBody.CreateSession) -> AnyPublisher<Session, Error>{
+    func createSession(session: RequestBody.CreateSession) -> AnyPublisher<ResponseBody<Session>, Error>{
         let url = URL(string: URLs.Templars.createSession)!
         var urlRequest = URLRequest(url: url)
-        let body = try? JSONEncoder().encode(session)
-        urlRequest.httpBody = body
-        urlRequest.httpMethod = "POST"
         urlRequest.addAPIKey(apiKey)
+        urlRequest.setPostMethod()
+        let body = try? JSONEncoder().encode(session)
+        urlRequest.httpBody = body // getData(session: session)
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
+    
+    func rescheduleSession(id: String, session: RequestBody.RescheduleSession) -> AnyPublisher<ResponseBody<Session>, Error>{
+        let urlString = String(format: URLs.Templars.rescheduleSession, id)
+        let url = URL(string: urlString)!
+        var urlRequest = URLRequest(url: url)
+        urlRequest.addAPIKey(apiKey)
+        urlRequest.setPutMethod()
+        let body = try? JSONEncoder().encode(session)
+        urlRequest.httpBody = body
+        return networkHelper.urlCall(urlRequest: urlRequest)
+    }
+    
 }

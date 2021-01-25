@@ -17,7 +17,10 @@ public struct DocumentCategory{
     public let description: String
     public let isPublic: Bool
     public let price: Double
-    public let parent: [DocumentCategory]?
+    private let parentList: [DocumentCategory]?
+    public var parent: DocumentCategory? {
+        parentList?.first
+    }
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -29,7 +32,7 @@ public struct DocumentCategory{
         case price
         case createdAt
         case updatedAt
-        case parent = "parent"
+        case parentList = "parent"
     }
     
 }
@@ -47,10 +50,10 @@ extension DocumentCategory: Decodable{
         price = try value.decode(Double.self, forKey: .price)
         createdAt = try value.decode(String.self, forKey: .createdAt).toDate()!
         updatedAt = try value.decode(String.self, forKey: .updatedAt).toDate()!
-        if let ii = try value.decodeIfPresent(DocumentCategory.self, forKey: .parent){
-            parent = [ii]
+        if let ii = try value.decodeIfPresent(DocumentCategory.self, forKey: .parentList){
+            parentList = [ii]
         }else{
-            parent = nil
+            parentList = nil
         }
     }
 }

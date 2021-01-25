@@ -32,7 +32,7 @@ struct NetworkHelper {
 //                    throw URLError(.userAuthenticationRequired)
 //                }
 
-                throw ApiError(property: "", message: "")
+                throw error //ApiError(property: "", message: error.localizedDecription)
             }
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()
