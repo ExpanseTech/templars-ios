@@ -32,6 +32,12 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    public func getDocumentCategories() -> AnyPublisher<ResponseBody<[DocumentCategory]>, Error> {
+        let url = URL(string: URLs.Templars.getPublicDocumentCategories)!
+        let urlRequest = URLRequest(url: url)
+        return networkHelper.urlCall(urlRequest: urlRequest)
+    }
+    
     public func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<DocumentDetail, Error> {
         let url = URL(string: URLs.Templars.createDocument)!
         
@@ -44,17 +50,19 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    public func updateDocument(update: String) -> AnyPublisher<DocumentDetail, Error> {
-        let url = URL(string: URLs.Templars.updateDocument)!
+    public func updateDocument(id: String, fields: String) -> AnyPublisher<DocumentDetail, Error> {
+        let urlString = String(format: URLs.Templars.updateDocument, id)
+        let url = URL(string: urlString)!
         
         var urlRequest = URLRequest(url: url)
         urlRequest.addAPIKey(apiKey)
-        let body = ["fields": update].jsonStringRepresentation!
+        urlRequest.setPutMethod()
+        let body = ["fields": fields].jsonStringRepresentation!
         urlRequest.httpBody = body
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    public func deleteDocument(id: String) -> AnyPublisher<DocumentDetail, Error> {
+    private func deleteDocument(id: String) -> AnyPublisher<DocumentDetail, Error> {
         let url = URL(string: String(format: URLs.Templars.deleteDocument, id) )!
         
         var urlRequest = URLRequest(url: url)
@@ -62,11 +70,6 @@ extension Templars{
         
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
-    
-//    func updateDocumentPayment(id: String) -> AnyPublisher<Document, Error> {
-//        let url = URL(string: String(format: URLs.Templars.updateDocumentPayment, id) )!
-//        let urlRequest = URLRequest(url: url)
-//        return networkHelper.urlCall(urlRequest: urlRequest)
-//    }
+
     
 }

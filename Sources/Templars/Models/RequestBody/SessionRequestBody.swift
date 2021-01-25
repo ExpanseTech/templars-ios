@@ -35,6 +35,21 @@ public extension RequestBody{
             case customerReference
         }
       }
+    
+    public struct RescheduleSession{
+        let startDate: Date
+        let count: Int
+        
+        public init(startDate: Date, count: Int){
+            self.startDate = startDate
+            self.count = count
+        }
+        
+        enum CodingKeys: String, CodingKey {
+            case startDate
+            case count
+        }
+    }
 }
 
 extension RequestBody.CreateSession: Encodable{
@@ -47,6 +62,16 @@ extension RequestBody.CreateSession: Encodable{
         try container.encode(count, forKey: .count)
         try container.encode(type.rawValue, forKey: .type)
         try container.encode(customerReference, forKey: .customerReference)
+    }
+    
+}
+
+extension RequestBody.RescheduleSession: Encodable{
+    
+    public func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(startDate.toString(), forKey: .startDate)
+        try container.encode(count, forKey: .count)
     }
     
 }

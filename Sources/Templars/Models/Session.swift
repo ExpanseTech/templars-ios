@@ -13,8 +13,8 @@ public struct Session {
     public let description: String
     public let meetingId: String
     public let meetingUrl: String
-    public let startDate: String
-    public let endDate: String
+    public var startDate: Date
+    public var endDate: Date
     public let count: Int
     public let duration: Int
     public let reschedules: Int
@@ -26,6 +26,7 @@ public struct Session {
     public let user: User
     public let customer: Customer?
     public let subscription: Subscription?
+    public let assignee: User?
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -46,6 +47,7 @@ public struct Session {
         case user
         case customer
         case subscription
+        case assignee
     }
     
     public enum SessionType: String{
@@ -68,8 +70,8 @@ extension Session: Decodable{
         description = try value.decode(String.self, forKey: .description)
         meetingId = try value.decode(String.self, forKey: .meetingId)
         meetingUrl = try value.decode(String.self, forKey: .meetingUrl)
-        startDate = try value.decode(String.self, forKey: .startDate)
-        endDate = try value.decode(String.self, forKey: .endDate)
+        startDate = try value.decode(String.self, forKey: .startDate).toDate()!
+        endDate = try value.decode(String.self, forKey: .endDate).toDate()!
         count = try value.decode(Int.self, forKey: .count)
         duration = try value.decode(Int.self, forKey: .duration)
         reschedules = try value.decode(Int.self, forKey: .reschedules)
@@ -85,5 +87,6 @@ extension Session: Decodable{
         
         customer = try value.decodeIfPresent(Customer.self, forKey: .customer)
         subscription = try value.decodeIfPresent(Subscription.self, forKey: .subscription)
+        assignee = try value.decodeIfPresent(User.self, forKey: .assignee)
     }
 }
