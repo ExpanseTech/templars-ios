@@ -19,7 +19,7 @@ public struct Session {
     public let duration: Int
     public let reschedules: Int
     public let type: SessionType
-    public let status: String
+    public let status: SessionStatus
     public let createdAt: Date
     public let updatedAt: Date
     public let isActive: Bool
@@ -50,6 +50,12 @@ public struct Session {
         case assignee
     }
     
+    public enum SessionStatus: String{
+        case pending = "PENDING"
+        case completed = "COMPLETED"
+        case cancelled = "CANCELLED"
+    }
+    
     public enum SessionType: String{
         case audio = "AUDIO"
         case video = "VIDEO"
@@ -57,8 +63,8 @@ public struct Session {
     }
     
     public enum SortBy: String {
-        case title = "title"
-        case date = "date"
+        case dateAccending = "createdAt"
+        case dateDescending = "-createdAt"
     }
 }
 
@@ -79,7 +85,9 @@ extension Session: Decodable{
         let type = try value.decode(String.self, forKey: .type)
         self.type = SessionType(rawValue: type) ?? .chat
         
-        status = try value.decode(String.self, forKey: .status)
+        let status = try value.decode(String.self, forKey: .status)
+        self.status = SessionStatus(rawValue: status) ?? .pending
+        
         createdAt = try value.decode(String.self, forKey: .createdAt).toDate()!
         updatedAt = try value.decode(String.self, forKey: .updatedAt).toDate()!
         isActive = try value.decode(Bool.self, forKey: .isActive)

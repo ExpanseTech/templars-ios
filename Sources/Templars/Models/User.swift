@@ -17,7 +17,7 @@ public struct User {
     public var email : String
     public var phoneNumber : String
     public var verified : Bool
-    public var role : String
+    public var role : UserRole
     
     enum CodingKeys: String, CodingKey {
         case id = "id"
@@ -32,6 +32,11 @@ public struct User {
         case role
     }
     
+    public enum UserRole: String{
+        case admin = "ADMIN"
+        case user = "USER"
+        case layer = "LAWYER"
+    }
 }
 
 extension User: Decodable{
@@ -47,6 +52,7 @@ extension User: Decodable{
         email = try value.decode(String.self, forKey: .email)
         phoneNumber = try value.decode(String.self, forKey: .phoneNumber)
         verified = try value.decode(Bool.self, forKey: .verified)
-        role = try value.decode(String.self, forKey: .role)
+        let role = try value.decode(String.self, forKey: .role)
+        self.role = UserRole(rawValue: role) ?? .user
     }
 }

@@ -18,9 +18,9 @@ public struct Document {
     public let updatedAt: Date
     public let user: User
     
-    public enum SortOrder: String {
-        case name = "name"
-        case date = "date"
+    public enum SortBy: String {
+        case dateAccending = "createdAt"
+        case dateDescending = "-createdAt"
     }
     
     enum CodingKeys: String, CodingKey {
