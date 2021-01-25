@@ -12,7 +12,7 @@ public struct Registration {
     public let template: String
     public let fields: String
     public let draft: Bool
-    public let status: String
+    public let status: RegistrationStatus
     public let createdAt: Date
     public let updatedAt: Date
     public let active: Bool
@@ -35,7 +35,14 @@ public struct Registration {
     }
     
     public enum SortBy: String{
-       case active = "ACTIVE"
+        case dateAccending = "createdAt"
+        case dateDescending = "-createdAt"
+    }
+    
+    public enum RegistrationStatus: String{
+        case approved = "APPROVED"
+        case rejected = "REJECTED"
+        case pending = "PENDING"
     }
 }
 
@@ -47,7 +54,10 @@ extension Registration: Decodable{
         template = try value.decode(String.self, forKey: .template)
         fields = try value.decode(String.self, forKey: .fields)
         draft = try value.decode(Bool.self, forKey: .draft)
-        status = try value.decode(String.self, forKey: .status)
+        
+        let status = try value.decode(String.self, forKey: .status)
+        self.status = RegistrationStatus(rawValue: status) ?? .pending
+        
         createdAt = try value.decode(String.self, forKey: .createdAt).toDate()!
         updatedAt = try value.decode(String.self, forKey: .updatedAt).toDate()!
         active = try value.decode(Bool.self, forKey: .active)
