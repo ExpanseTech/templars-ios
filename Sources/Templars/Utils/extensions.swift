@@ -9,18 +9,15 @@ import Foundation
 
 
 extension String{
-    func toDate(format: String = "YYYY-MM-DD'T'HH:mm:ss.SSSXXX") -> Date?{
-        let isoDate = "2016-04-14T10:44:00+0000"
-
+    public func toDate(format: String = "YYYY-MM-dd'T'HH:mm:ss.SSSXXX") -> Date?{
         let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
         dateFormatter.dateFormat = format
         return dateFormatter.date(from: self)
     }
 }
 
 public extension Date{
-    func toString(format: String = "yyyy-MM-dd'T'HH:mm:ssZ") -> String? {
+    func toString(format: String = "YYYY-MM-dd'T'HH:mm:ss.SSSXXX") -> String? {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter.string(from: self)
