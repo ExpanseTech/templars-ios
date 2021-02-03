@@ -19,7 +19,7 @@ struct URLs {
         static let getDocuments = "\(baseURL)/api/v1/documents/me"
         static let getDocument = "\(baseURL)/api/v1/documents/%@"
         static let createDocument = "\(baseURL)/api/v1/documents"
-        static let updateDocument = "\(baseURL)/api​/v1​/documents/%@"
+        static let updateDocument = "\(baseURL)/api/v1/documents/%@"
         static let deleteDocument = "\(baseURL)/api​/v1​/documents/%@"
         static let updateDocumentPayment = "\(baseURL)/api​/v1​/documents/%@/payment"
         

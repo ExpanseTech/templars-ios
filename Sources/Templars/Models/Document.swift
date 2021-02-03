@@ -17,6 +17,8 @@ public struct Document {
     public let createdAt: Date
     public let updatedAt: Date
     public let user: User
+    public let category: DocumentCategory?
+    public let template: String?
     
     public enum SortBy: String {
         case dateAccending = "createdAt"
@@ -33,6 +35,8 @@ public struct Document {
         case createdAt
         case updatedAt
         case user
+        case category
+        case template
     }
 }
 
@@ -48,5 +52,7 @@ extension Document: Decodable{
         createdAt = try value.decode(String.self, forKey: .createdAt).toDate()!
         updatedAt = try value.decode(String.self, forKey: .updatedAt).toDate()!
         user = try value.decode(User.self, forKey: .user)
+        category = try value.decodeIfPresent(DocumentCategory.self, forKey: .category)
+        template = try value.decodeIfPresent(String.self, forKey: .template)
     }
 }

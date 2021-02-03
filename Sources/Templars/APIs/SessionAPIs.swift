@@ -34,8 +34,8 @@ public extension Templars{
         var urlRequest = URLRequest(url: url)
         urlRequest.addAPIKey(apiKey)
         urlRequest.setPostMethod()
-        let body = try? JSONEncoder().encode(session)
-        urlRequest.httpBody = body // getData(session: session)
+        let body = try! JSONEncoder().encode(session)
+        urlRequest.httpBody = body
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
@@ -45,7 +45,7 @@ public extension Templars{
         var urlRequest = URLRequest(url: url)
         urlRequest.addAPIKey(apiKey)
         urlRequest.setPutMethod()
-        let body = try? JSONEncoder().encode(session)
+        let body = try! JSONEncoder().encode(session)
         urlRequest.httpBody = body
         return networkHelper.urlCall(urlRequest: urlRequest)
     }

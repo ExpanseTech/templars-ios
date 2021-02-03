@@ -12,7 +12,7 @@ import Combine
 @available(iOS 13.0, *)
 extension Templars{
     
-    public func getDocument(id: String) -> AnyPublisher<ResponseBody<DocumentDetail>, Error> {
+    public func getDocument(id: String) -> AnyPublisher<ResponseBody<Document>, Error> {
         let url = URL(string: String(format: URLs.Templars.getDocument, id) )!
         var urlRequest = URLRequest(url: url)
         urlRequest.addAPIKey(apiKey)
@@ -20,7 +20,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    public func getDocuments(page: Int, pageSize: Int, sortBy: DocumentDetail.SortOrder) -> AnyPublisher<ResponseBody<[Document]>, Error> {
+    public func getDocuments(page: Int, pageSize: Int, sortBy: Document.SortBy) -> AnyPublisher<ResponseBody<[Document]>, Error> {
         let url = URL(string: URLs.Templars.getDocuments)!
         
         var urlRequest = URLRequest(url: url)
@@ -38,7 +38,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    public func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<DocumentDetail, Error> {
+    public func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<ResponseBody<Document>, Error> {
         let url = URL(string: URLs.Templars.createDocument)!
         
         var urlRequest = URLRequest(url: url)
@@ -50,7 +50,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    public func updateDocument(id: String, fields: String) -> AnyPublisher<DocumentDetail, Error> {
+    public func updateDocument(id: String, fields: String) -> AnyPublisher<ResponseBody<Document>, Error> {
         let urlString = String(format: URLs.Templars.updateDocument, id)
         let url = URL(string: urlString)!
         
@@ -62,7 +62,7 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
-    private func deleteDocument(id: String) -> AnyPublisher<DocumentDetail, Error> {
+    private func deleteDocument(id: String) -> AnyPublisher<Document, Error> {
         let url = URL(string: String(format: URLs.Templars.deleteDocument, id) )!
         
         var urlRequest = URLRequest(url: url)

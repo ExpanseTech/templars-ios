@@ -24,13 +24,10 @@ struct NetworkHelper {
                     let error = try decoder.decode(ApiError.self, from: result.data)
                     throw error
                 }
+                let ss = String(data: result.data, encoding: .utf8)
                 return try decoder.decode(T.self, from: result.data)
             }
             .tryCatch{ error -> AnyPublisher<T, ApiError> in
-//                guard let apiError = error as? ApiError
-//                      , apiError.statusCode == 401 else{
-//                    throw URLError(.userAuthenticationRequired)
-//                }
 
                 throw error //ApiError(property: "", message: error.localizedDecription)
             }
