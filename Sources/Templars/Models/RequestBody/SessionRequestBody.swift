@@ -16,6 +16,15 @@ public extension RequestBody{
         public let type: Session.SessionType
         public let customerReference: String
         
+        
+        /// Initializer
+        /// - Parameters:
+        ///   - title: Session Title
+        ///   - description: Session description
+        ///   - startDate: Start time of Session
+        ///   - count: Number of Sessions
+        ///   - type: Type of Session (Audio, Video or Chat)
+        ///   - customerReference: Customer Id/Email
         public init(title: String, description: String, startDate: Date, count: Int,
                     type: Session.SessionType, customerReference: String) {
             self.title = title
@@ -40,6 +49,11 @@ public extension RequestBody{
         let startDate: Date
         let count: Int
         
+        
+        /// Sechedule Session
+        /// - Parameters:
+        ///   - startDate: New Start Date
+        ///   - count: Number of Sessions
         public init(startDate: Date, count: Int){
             self.startDate = startDate
             self.count = count

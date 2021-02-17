@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Templars Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Templars" class="dashAnchor"></a>
+    <a title="Templars Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (12% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Templars Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/Templars.html">Templars</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Customer.html">Customer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Customer/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document.html">Document</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/DocumentCategory.html">DocumentCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/DocumentCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Meta.html">Meta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/NetworkHelper.html">NetworkHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Plan.html">Plan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Plan/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration.html">Registration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/RegistrationStatus.html">– RegistrationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RegistrationCategory.html">RegistrationCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RegistrationCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody.html">RequestBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/UpdateProfile.html">– UpdateProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateDocument.html">– CreateDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateRegistration.html">– CreateRegistration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateSession.html">– CreateSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/RescheduleSession.html">– RescheduleSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ResponseBody.html">ResponseBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SessionStatus.html">– SessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SessionType.html">– SessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Subscription.html">Subscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Subscription/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SubscriptionPlan.html">SubscriptionPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/URLs.html">URLs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/URLs/Templars.html">– Templars</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User/UserRole.html">– UserRole</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Templars</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Templars</span></code></pre>
+
+                </div>
+              </div>
+            <p>Collection of Templars API URLs</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Category%20APIs"></a>
+                <a name="//apple_ref/swift/Section/Category APIs" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Category%20APIs"></a>
+                  <h3 class="section-name"><p>Category APIs</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV27getPublicDocumentCategoriesSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getPublicDocumentCategories" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV27getPublicDocumentCategoriesSSvpZ">getPublicDocumentCategories</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getPublicDocumentCategories</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Documents%20API"></a>
+                <a name="//apple_ref/swift/Section/Documents API" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Documents%20API"></a>
+                  <h3 class="section-name"><p>Documents API</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV12getDocumentsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getDocuments" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV12getDocumentsSSvpZ">getDocuments</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getDocuments</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV11getDocumentSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getDocument" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV11getDocumentSSvpZ">getDocument</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getDocument</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV14createDocumentSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/createDocument" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV14createDocumentSSvpZ">createDocument</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">createDocument</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV14updateDocumentSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/updateDocument" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV14updateDocumentSSvpZ">updateDocument</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">updateDocument</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV14deleteDocumentSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/deleteDocument" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV14deleteDocumentSSvpZ">deleteDocument</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">deleteDocument</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV21updateDocumentPaymentSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/updateDocumentPayment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV21updateDocumentPaymentSSvpZ">updateDocumentPayment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">updateDocumentPayment</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Bussiness%20Registeration%20API"></a>
+                <a name="//apple_ref/swift/Section/Bussiness Registeration API" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Bussiness%20Registeration%20API"></a>
+                  <h3 class="section-name"><p>Bussiness Registeration API</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV15getRegistrationSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getRegistration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV15getRegistrationSSvpZ">getRegistration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getRegistration</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV16getRegistrationsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getRegistrations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV16getRegistrationsSSvpZ">getRegistrations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getRegistrations</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV25getRegistrationCategoriesSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getRegistrationCategories" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV25getRegistrationCategoriesSSvpZ">getRegistrationCategories</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getRegistrationCategories</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV18createRegistrationSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/createRegistration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV18createRegistrationSSvpZ">createRegistration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">createRegistration</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Sessions%20API"></a>
+                <a name="//apple_ref/swift/Section/Sessions API" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Sessions%20API"></a>
+                  <h3 class="section-name"><p>Sessions API</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV10getSessionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV10getSessionSSvpZ">getSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getSession</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV11getSessionsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getSessions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV11getSessionsSSvpZ">getSessions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getSessions</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV13createSessionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/createSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV13createSessionSSvpZ">createSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">createSession</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV13cancelSessionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/cancelSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV13cancelSessionSSvpZ">cancelSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">cancelSession</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV10endSessionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/endSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV10endSessionSSvpZ">endSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">endSession</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV17rescheduleSessionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/rescheduleSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV17rescheduleSessionSSvpZ">rescheduleSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">rescheduleSession</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Subscribtion%20Management%20APIs"></a>
+                <a name="//apple_ref/swift/Section/Subscribtion Management APIs" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Subscribtion%20Management%20APIs"></a>
+                  <h3 class="section-name"><p>Subscribtion Management APIs</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV16getSubscriptionsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getSubscriptions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV16getSubscriptionsSSvpZ">getSubscriptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getSubscriptions</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV19createSubscriptionsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/createSubscriptions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV19createSubscriptionsSSvpZ">createSubscriptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">createSubscriptions</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV18getMySubscriptionsSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getMySubscriptions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV18getMySubscriptionsSSvpZ">getMySubscriptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getMySubscriptions</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV21getActiveSubscriptionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/getActiveSubscription" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV21getActiveSubscriptionSSvpZ">getActiveSubscription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">getActiveSubscription</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV15endSubscriptionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/endSubscription" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV15endSubscriptionSSvpZ">endSubscription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">endSubscription</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Profile%20APIs"></a>
+                <a name="//apple_ref/swift/Section/Profile APIs" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Profile%20APIs"></a>
+                  <h3 class="section-name"><p>Profile APIs</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV11userProfileSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/userProfile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV11userProfileSSvpZ">userProfile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">userProfile</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars4URLsVAAV11toggleStateSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/toggleState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars4URLsVAAV11toggleStateSSvpZ">toggleState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">toggleState</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

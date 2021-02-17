@@ -9,6 +9,8 @@ import Foundation
 
 struct URLs {
     
+    
+    /// Collection of Templars API URLs
     struct Templars{
         private static let baseURL = "http://templars-api.herokuapp.com"
         

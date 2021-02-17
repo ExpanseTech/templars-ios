@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+/// API Error Respose
 public struct ApiError: Decodable, Error {
     public let message: String
 }

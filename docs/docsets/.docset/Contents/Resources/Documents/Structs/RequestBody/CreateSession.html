@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CreateSession Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/CreateSession" class="dashAnchor"></a>
+    <a title="CreateSession Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (12% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        CreateSession Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/Templars.html">Templars</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Customer.html">Customer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Customer/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document.html">Document</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Document/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/DocumentCategory.html">DocumentCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/DocumentCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Meta.html">Meta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/NetworkHelper.html">NetworkHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Plan.html">Plan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Plan/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration.html">Registration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Registration/RegistrationStatus.html">– RegistrationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RegistrationCategory.html">RegistrationCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RegistrationCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody.html">RequestBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/UpdateProfile.html">– UpdateProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateDocument.html">– CreateDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateRegistration.html">– CreateRegistration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/CreateSession.html">– CreateSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/RequestBody/RescheduleSession.html">– RescheduleSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ResponseBody.html">ResponseBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SessionStatus.html">– SessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SessionType.html">– SessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Session/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Subscription.html">Subscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Subscription/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SubscriptionPlan.html">SubscriptionPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/URLs.html">URLs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/URLs/Templars.html">– Templars</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User/UserRole.html">– UserRole</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CreateSession</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">CreateSession</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt"><a href="../../Structs/RequestBody.html">RequestBody</a></span><span class="o">.</span><span class="kt">CreateSession</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV5titleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV5titleSSvp">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV11descriptionSSvp"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV11descriptionSSvp">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV9startDate10Foundation0G0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/startDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV9startDate10Foundation0G0Vvp">startDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV5countSivp"></a>
+                    <a name="//apple_ref/swift/Property/count" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV5countSivp">count</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV4typeAA0E0V0E4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV4typeAA0E0V0E4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../../Structs/Session.html">Session</a></span><span class="o">.</span><span class="kt">SessionType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV17customerReferenceSSvp"></a>
+                    <a name="//apple_ref/swift/Property/customerReference" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV17customerReferenceSSvp">customerReference</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">customerReference</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV5title11description9startDate5count4type17customerReferenceAESS_SS10Foundation0I0VSiAA0E0V0E4TypeOSStcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(title:description:startDate:count:type:customerReference:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV5title11description9startDate5count4type17customerReferenceAESS_SS10Foundation0I0VSiAA0E0V0E4TypeOSStcfc">init(title:<wbr>description:<wbr>startDate:<wbr>count:<wbr>type:<wbr>customerReference:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+            <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../../Structs/Session.html">Session</a></span><span class="o">.</span><span class="kt">SessionType</span><span class="p">,</span> <span class="nv">customerReference</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session Title</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>description</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session description</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>startDate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Start time of Session</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>count</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Number of Sessions</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Type of Session (Audio, Video or Chat)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customerReference</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Customer Id/Email</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Templars11RequestBodyV13CreateSessionV10CodingKeysO"></a>
+                    <a name="//apple_ref/swift/Enum/CodingKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Templars11RequestBodyV13CreateSessionV10CodingKeysO">CodingKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../../Structs/RequestBody/CreateSession/CodingKeys.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">CodingKeys</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CodingKey</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
+                    <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">to</span> <span class="nv">encoder</span><span class="p">:</span> <span class="kt">Encoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

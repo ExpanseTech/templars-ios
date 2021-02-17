@@ -1,0 +1,2357 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ApiError.swift",
+      "line": 13,
+      "symbol": "ApiError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 10,
+      "symbol": "Customer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 11,
+      "symbol": "Customer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 12,
+      "symbol": "Customer.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 13,
+      "symbol": "Customer.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 14,
+      "symbol": "Customer.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 15,
+      "symbol": "Customer.reference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 17,
+      "symbol": "Customer.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 18,
+      "symbol": "Customer.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 19,
+      "symbol": "Customer.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 20,
+      "symbol": "Customer.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 21,
+      "symbol": "Customer.CodingKeys.isActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 22,
+      "symbol": "Customer.CodingKeys.reference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Customer.swift",
+      "line": 26,
+      "symbol": "Customer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 10,
+      "symbol": "Document",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 11,
+      "symbol": "Document.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 12,
+      "symbol": "Document.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 13,
+      "symbol": "Document.active",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 14,
+      "symbol": "Document.draft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 15,
+      "symbol": "Document.categoryId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 16,
+      "symbol": "Document.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 17,
+      "symbol": "Document.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 18,
+      "symbol": "Document.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 19,
+      "symbol": "Document.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 20,
+      "symbol": "Document.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 21,
+      "symbol": "Document.template",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 23,
+      "symbol": "Document.SortBy",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 24,
+      "symbol": "Document.SortBy.dateAccending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 25,
+      "symbol": "Document.SortBy.dateDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 28,
+      "symbol": "Document.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 29,
+      "symbol": "Document.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 30,
+      "symbol": "Document.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 31,
+      "symbol": "Document.CodingKeys.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 32,
+      "symbol": "Document.CodingKeys.draft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 33,
+      "symbol": "Document.CodingKeys.categoryId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 34,
+      "symbol": "Document.CodingKeys.userId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 35,
+      "symbol": "Document.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 36,
+      "symbol": "Document.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 37,
+      "symbol": "Document.CodingKeys.user",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 38,
+      "symbol": "Document.CodingKeys.category",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 39,
+      "symbol": "Document.CodingKeys.template",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Document.swift",
+      "line": 43,
+      "symbol": "Document",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 10,
+      "symbol": "DocumentCategory",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 11,
+      "symbol": "DocumentCategory.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 12,
+      "symbol": "DocumentCategory.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 13,
+      "symbol": "DocumentCategory.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 14,
+      "symbol": "DocumentCategory.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 15,
+      "symbol": "DocumentCategory.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 16,
+      "symbol": "DocumentCategory.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 17,
+      "symbol": "DocumentCategory.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 18,
+      "symbol": "DocumentCategory.isPublic",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 19,
+      "symbol": "DocumentCategory.price",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 21,
+      "symbol": "DocumentCategory.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 25,
+      "symbol": "DocumentCategory.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 26,
+      "symbol": "DocumentCategory.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 27,
+      "symbol": "DocumentCategory.CodingKeys.isActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 28,
+      "symbol": "DocumentCategory.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 29,
+      "symbol": "DocumentCategory.CodingKeys.slug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 30,
+      "symbol": "DocumentCategory.CodingKeys.description",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 31,
+      "symbol": "DocumentCategory.CodingKeys.isPublic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 32,
+      "symbol": "DocumentCategory.CodingKeys.price",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 33,
+      "symbol": "DocumentCategory.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 34,
+      "symbol": "DocumentCategory.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 35,
+      "symbol": "DocumentCategory.CodingKeys.parentList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/DocumentCategory.swift",
+      "line": 40,
+      "symbol": "DocumentCategory",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 10,
+      "symbol": "Plan",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 11,
+      "symbol": "Plan.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 12,
+      "symbol": "Plan.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 13,
+      "symbol": "Plan.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 14,
+      "symbol": "Plan.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 15,
+      "symbol": "Plan.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 16,
+      "symbol": "Plan.amount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 17,
+      "symbol": "Plan.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 18,
+      "symbol": "Plan.reference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 19,
+      "symbol": "Plan.registrations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 20,
+      "symbol": "Plan.documents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 21,
+      "symbol": "Plan.sessions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 22,
+      "symbol": "Plan.interval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 24,
+      "symbol": "Plan.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 25,
+      "symbol": "Plan.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 26,
+      "symbol": "Plan.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 27,
+      "symbol": "Plan.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 28,
+      "symbol": "Plan.CodingKeys.isActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 29,
+      "symbol": "Plan.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 30,
+      "symbol": "Plan.CodingKeys.amount",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 31,
+      "symbol": "Plan.CodingKeys.description",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 32,
+      "symbol": "Plan.CodingKeys.reference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 33,
+      "symbol": "Plan.CodingKeys.registrations",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 34,
+      "symbol": "Plan.CodingKeys.documents",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 35,
+      "symbol": "Plan.CodingKeys.sessions",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 36,
+      "symbol": "Plan.CodingKeys.interval",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Plan.swift",
+      "line": 40,
+      "symbol": "Plan",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 10,
+      "symbol": "Registration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 11,
+      "symbol": "Registration.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 12,
+      "symbol": "Registration.template",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 13,
+      "symbol": "Registration.fields",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 14,
+      "symbol": "Registration.draft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 15,
+      "symbol": "Registration.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 16,
+      "symbol": "Registration.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 17,
+      "symbol": "Registration.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 18,
+      "symbol": "Registration.active",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 19,
+      "symbol": "Registration.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 20,
+      "symbol": "Registration.categoryId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 21,
+      "symbol": "Registration.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 23,
+      "symbol": "Registration.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 24,
+      "symbol": "Registration.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 25,
+      "symbol": "Registration.CodingKeys.template",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 26,
+      "symbol": "Registration.CodingKeys.fields",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 27,
+      "symbol": "Registration.CodingKeys.draft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 28,
+      "symbol": "Registration.CodingKeys.status",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 29,
+      "symbol": "Registration.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 30,
+      "symbol": "Registration.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 31,
+      "symbol": "Registration.CodingKeys.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 32,
+      "symbol": "Registration.CodingKeys.user",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 33,
+      "symbol": "Registration.CodingKeys.categoryId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 34,
+      "symbol": "Registration.CodingKeys.userId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 37,
+      "symbol": "Registration.SortBy",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 38,
+      "symbol": "Registration.SortBy.dateAccending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 39,
+      "symbol": "Registration.SortBy.dateDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 42,
+      "symbol": "Registration.RegistrationStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 43,
+      "symbol": "Registration.RegistrationStatus.approved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 44,
+      "symbol": "Registration.RegistrationStatus.rejected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 45,
+      "symbol": "Registration.RegistrationStatus.pending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Registration.swift",
+      "line": 49,
+      "symbol": "Registration",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 10,
+      "symbol": "RegistrationCategory",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 11,
+      "symbol": "RegistrationCategory.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 12,
+      "symbol": "RegistrationCategory.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 13,
+      "symbol": "RegistrationCategory.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 14,
+      "symbol": "RegistrationCategory.active",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 15,
+      "symbol": "RegistrationCategory.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 16,
+      "symbol": "RegistrationCategory.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 17,
+      "symbol": "RegistrationCategory.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 18,
+      "symbol": "RegistrationCategory.isPublic",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 19,
+      "symbol": "RegistrationCategory.price",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 21,
+      "symbol": "RegistrationCategory.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 22,
+      "symbol": "RegistrationCategory.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 23,
+      "symbol": "RegistrationCategory.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 24,
+      "symbol": "RegistrationCategory.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 25,
+      "symbol": "RegistrationCategory.CodingKeys.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 26,
+      "symbol": "RegistrationCategory.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 27,
+      "symbol": "RegistrationCategory.CodingKeys.slug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 28,
+      "symbol": "RegistrationCategory.CodingKeys.description",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 29,
+      "symbol": "RegistrationCategory.CodingKeys.isPublic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 30,
+      "symbol": "RegistrationCategory.CodingKeys.price",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RegistrationCategory.swift",
+      "line": 34,
+      "symbol": "RegistrationCategory",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateDocument.swift",
+      "line": 15,
+      "symbol": "RequestBody.CreateDocument.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateDocument.swift",
+      "line": 16,
+      "symbol": "RequestBody.CreateDocument.draft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateDocument.swift",
+      "line": 17,
+      "symbol": "RequestBody.CreateDocument.fields",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateDocument.swift",
+      "line": 18,
+      "symbol": "RequestBody.CreateDocument.customerReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateDocument.swift",
+      "line": 19,
+      "symbol": "RequestBody.CreateDocument.categoryId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateRegistration.swift",
+      "line": 15,
+      "symbol": "RequestBody.CreateRegistration.fields",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateRegistration.swift",
+      "line": 16,
+      "symbol": "RequestBody.CreateRegistration.draft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateRegistration.swift",
+      "line": 17,
+      "symbol": "RequestBody.CreateRegistration.customerReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/CreateRegistration.swift",
+      "line": 18,
+      "symbol": "RequestBody.CreateRegistration.categoryId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 10,
+      "symbol": "RequestBody",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 10,
+      "symbol": "RequestBody",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 10,
+      "symbol": "RequestBody",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 10,
+      "symbol": "RequestBody",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 13,
+      "symbol": "RequestBody.UpdateProfile",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 14,
+      "symbol": "RequestBody.UpdateProfile.firstName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 15,
+      "symbol": "RequestBody.UpdateProfile.lastName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/RequestBody.swift",
+      "line": 16,
+      "symbol": "RequestBody.UpdateProfile.phoneNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 11,
+      "symbol": "RequestBody.CreateSession",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 12,
+      "symbol": "RequestBody.CreateSession.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 13,
+      "symbol": "RequestBody.CreateSession.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 14,
+      "symbol": "RequestBody.CreateSession.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 15,
+      "symbol": "RequestBody.CreateSession.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 16,
+      "symbol": "RequestBody.CreateSession.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 17,
+      "symbol": "RequestBody.CreateSession.customerReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 38,
+      "symbol": "RequestBody.CreateSession.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 39,
+      "symbol": "RequestBody.CreateSession.CodingKeys.title",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 40,
+      "symbol": "RequestBody.CreateSession.CodingKeys.description",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 41,
+      "symbol": "RequestBody.CreateSession.CodingKeys.startDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 42,
+      "symbol": "RequestBody.CreateSession.CodingKeys.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 43,
+      "symbol": "RequestBody.CreateSession.CodingKeys.type",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 44,
+      "symbol": "RequestBody.CreateSession.CodingKeys.customerReference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 48,
+      "symbol": "RequestBody.RescheduleSession",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 49,
+      "symbol": "RequestBody.RescheduleSession.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 50,
+      "symbol": "RequestBody.RescheduleSession.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 62,
+      "symbol": "RequestBody.RescheduleSession.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 63,
+      "symbol": "RequestBody.RescheduleSession.CodingKeys.startDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 64,
+      "symbol": "RequestBody.RescheduleSession.CodingKeys.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 69,
+      "symbol": "RequestBody.CreateSession",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/RequestBody/SessionRequestBody.swift",
+      "line": 83,
+      "symbol": "RequestBody.RescheduleSession",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 12,
+      "symbol": "ResponseBody.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 13,
+      "symbol": "ResponseBody.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 14,
+      "symbol": "ResponseBody.meta",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 20,
+      "symbol": "Meta.perPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 21,
+      "symbol": "Meta.total",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 22,
+      "symbol": "Meta.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 23,
+      "symbol": "Meta.currentPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/ResponseBody.swift",
+      "line": 24,
+      "symbol": "Meta.totalPages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 10,
+      "symbol": "Session",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 11,
+      "symbol": "Session.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 12,
+      "symbol": "Session.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 13,
+      "symbol": "Session.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 14,
+      "symbol": "Session.meetingId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 15,
+      "symbol": "Session.meetingUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 16,
+      "symbol": "Session.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 17,
+      "symbol": "Session.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 18,
+      "symbol": "Session.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 19,
+      "symbol": "Session.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 20,
+      "symbol": "Session.reschedules",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 21,
+      "symbol": "Session.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 22,
+      "symbol": "Session.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 23,
+      "symbol": "Session.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 24,
+      "symbol": "Session.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 25,
+      "symbol": "Session.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 26,
+      "symbol": "Session.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 27,
+      "symbol": "Session.customer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 28,
+      "symbol": "Session.subscription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 29,
+      "symbol": "Session.assignee",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 31,
+      "symbol": "Session.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 32,
+      "symbol": "Session.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 33,
+      "symbol": "Session.CodingKeys.title",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 34,
+      "symbol": "Session.CodingKeys.description",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 35,
+      "symbol": "Session.CodingKeys.meetingId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 36,
+      "symbol": "Session.CodingKeys.meetingUrl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 37,
+      "symbol": "Session.CodingKeys.startDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 38,
+      "symbol": "Session.CodingKeys.endDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 39,
+      "symbol": "Session.CodingKeys.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 40,
+      "symbol": "Session.CodingKeys.duration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 41,
+      "symbol": "Session.CodingKeys.reschedules",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 42,
+      "symbol": "Session.CodingKeys.type",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 43,
+      "symbol": "Session.CodingKeys.status",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 44,
+      "symbol": "Session.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 45,
+      "symbol": "Session.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 46,
+      "symbol": "Session.CodingKeys.isActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 47,
+      "symbol": "Session.CodingKeys.user",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 48,
+      "symbol": "Session.CodingKeys.customer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 49,
+      "symbol": "Session.CodingKeys.subscription",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 50,
+      "symbol": "Session.CodingKeys.assignee",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 53,
+      "symbol": "Session.SessionStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 54,
+      "symbol": "Session.SessionStatus.pending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 55,
+      "symbol": "Session.SessionStatus.completed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 56,
+      "symbol": "Session.SessionStatus.cancelled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 59,
+      "symbol": "Session.SessionType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 60,
+      "symbol": "Session.SessionType.audio",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 61,
+      "symbol": "Session.SessionType.video",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 62,
+      "symbol": "Session.SessionType.chat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 65,
+      "symbol": "Session.SortBy",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 66,
+      "symbol": "Session.SortBy.dateAccending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 67,
+      "symbol": "Session.SortBy.dateDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Session.swift",
+      "line": 71,
+      "symbol": "Session",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 10,
+      "symbol": "Subscription",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 11,
+      "symbol": "Subscription.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 12,
+      "symbol": "Subscription.amount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 13,
+      "symbol": "Subscription.reference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 14,
+      "symbol": "Subscription.startDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 15,
+      "symbol": "Subscription.endDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 16,
+      "symbol": "Subscription.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 17,
+      "symbol": "Subscription.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 18,
+      "symbol": "Subscription.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 19,
+      "symbol": "Subscription.plan",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 21,
+      "symbol": "Subscription.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 22,
+      "symbol": "Subscription.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 23,
+      "symbol": "Subscription.CodingKeys.amount",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 24,
+      "symbol": "Subscription.CodingKeys.reference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 25,
+      "symbol": "Subscription.CodingKeys.startDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 26,
+      "symbol": "Subscription.CodingKeys.endDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 27,
+      "symbol": "Subscription.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 28,
+      "symbol": "Subscription.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 29,
+      "symbol": "Subscription.CodingKeys.isActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 30,
+      "symbol": "Subscription.CodingKeys.plan",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/Subscription.swift",
+      "line": 34,
+      "symbol": "Subscription",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 10,
+      "symbol": "SubscriptionPlan",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 11,
+      "symbol": "SubscriptionPlan.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 12,
+      "symbol": "SubscriptionPlan.amount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 13,
+      "symbol": "SubscriptionPlan.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 14,
+      "symbol": "SubscriptionPlan.reference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 15,
+      "symbol": "SubscriptionPlan.registrations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 16,
+      "symbol": "SubscriptionPlan.documents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 17,
+      "symbol": "SubscriptionPlan.sessions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 18,
+      "symbol": "SubscriptionPlan.interval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 19,
+      "symbol": "SubscriptionPlan.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 20,
+      "symbol": "SubscriptionPlan.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/SubscriptionPlan.swift",
+      "line": 21,
+      "symbol": "SubscriptionPlan.active",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 10,
+      "symbol": "User",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 11,
+      "symbol": "User.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 12,
+      "symbol": "User.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 13,
+      "symbol": "User.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 14,
+      "symbol": "User.active",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 15,
+      "symbol": "User.firstName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 16,
+      "symbol": "User.lastName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 17,
+      "symbol": "User.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 18,
+      "symbol": "User.phoneNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 19,
+      "symbol": "User.verified",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 20,
+      "symbol": "User.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 22,
+      "symbol": "User.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 23,
+      "symbol": "User.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 24,
+      "symbol": "User.CodingKeys.createdAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 25,
+      "symbol": "User.CodingKeys.updatedAt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 26,
+      "symbol": "User.CodingKeys.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 27,
+      "symbol": "User.CodingKeys.firstName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 28,
+      "symbol": "User.CodingKeys.lastName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 29,
+      "symbol": "User.CodingKeys.email",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 30,
+      "symbol": "User.CodingKeys.phoneNumber",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 31,
+      "symbol": "User.CodingKeys.verified",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 32,
+      "symbol": "User.CodingKeys.role",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 35,
+      "symbol": "User.UserRole",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 36,
+      "symbol": "User.UserRole.admin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 37,
+      "symbol": "User.UserRole.user",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 38,
+      "symbol": "User.UserRole.layer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Models/User.swift",
+      "line": 42,
+      "symbol": "User",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/NetworkHelper.swift",
+      "line": 13,
+      "symbol": "NetworkHelper",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 13,
+      "symbol": "Templars",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 13,
+      "symbol": "Templars",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 13,
+      "symbol": "Templars",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 14,
+      "symbol": "Templars",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 16,
+      "symbol": "Templars.apiKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Templars.swift",
+      "line": 17,
+      "symbol": "Templars.networkHelper",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 10,
+      "symbol": "URLs",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 18,
+      "symbol": "URLs.Templars.getPublicDocumentCategories",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 21,
+      "symbol": "URLs.Templars.getDocuments",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 22,
+      "symbol": "URLs.Templars.getDocument",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 23,
+      "symbol": "URLs.Templars.createDocument",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 24,
+      "symbol": "URLs.Templars.updateDocument",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 25,
+      "symbol": "URLs.Templars.deleteDocument",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 26,
+      "symbol": "URLs.Templars.updateDocumentPayment",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 31,
+      "symbol": "URLs.Templars.getRegistration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 32,
+      "symbol": "URLs.Templars.getRegistrations",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 33,
+      "symbol": "URLs.Templars.getRegistrationCategories",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 34,
+      "symbol": "URLs.Templars.createRegistration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 38,
+      "symbol": "URLs.Templars.getSession",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 39,
+      "symbol": "URLs.Templars.getSessions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 40,
+      "symbol": "URLs.Templars.createSession",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 41,
+      "symbol": "URLs.Templars.cancelSession",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 42,
+      "symbol": "URLs.Templars.endSession",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 43,
+      "symbol": "URLs.Templars.rescheduleSession",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 46,
+      "symbol": "URLs.Templars.getSubscriptions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 47,
+      "symbol": "URLs.Templars.createSubscriptions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 48,
+      "symbol": "URLs.Templars.getMySubscriptions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 49,
+      "symbol": "URLs.Templars.getActiveSubscription",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 50,
+      "symbol": "URLs.Templars.endSubscription",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 55,
+      "symbol": "URLs.Templars.userProfile",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/USER/Documents/Templars/iOS/Templars/Sources/Templars/Utils/URLs.swift",
+      "line": 56,
+      "symbol": "URLs.Templars.toggleState",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/USER/Documents/Templars/iOS/Templars"
+}

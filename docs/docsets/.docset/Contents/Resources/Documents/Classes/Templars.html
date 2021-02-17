@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Templars Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Templars" class="dashAnchor"></a>
+    <a title="Templars Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (12% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Templars Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Templars.html">Templars</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Customer.html">Customer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Customer/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Document.html">Document</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Document/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Document/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DocumentCategory.html">DocumentCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DocumentCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Meta.html">Meta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkHelper.html">NetworkHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Plan.html">Plan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Plan/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Registration.html">Registration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Registration/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Registration/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Registration/RegistrationStatus.html">– RegistrationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegistrationCategory.html">RegistrationCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegistrationCategory/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody.html">RequestBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody/UpdateProfile.html">– UpdateProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody/CreateDocument.html">– CreateDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody/CreateRegistration.html">– CreateRegistration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody/CreateSession.html">– CreateSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestBody/RescheduleSession.html">– RescheduleSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ResponseBody.html">ResponseBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Session/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Session/SessionStatus.html">– SessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Session/SessionType.html">– SessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Session/SortBy.html">– SortBy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Subscription.html">Subscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Subscription/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SubscriptionPlan.html">SubscriptionPlan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLs.html">URLs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLs/Templars.html">– Templars</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User/UserRole.html">– UserRole</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Templars</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Templars</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC6apiKeySSvp"></a>
+                    <a name="//apple_ref/swift/Property/apiKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC6apiKeySSvp">apiKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC13networkHelperAA07NetworkC0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/networkHelper" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC13networkHelperAA07NetworkC0Vvp">networkHelper</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">networkHelper</span><span class="p">:</span> <span class="kt"><a href="../Structs/NetworkHelper.html">NetworkHelper</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC6apiKeyABSS_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC6apiKeyABSS_tcfc">init(apiKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>apiKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>API key</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC11getDocument2id7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/getDocument(id:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC11getDocument2id7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_tF">getDocument(id:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a Document by it&rsquo;s Id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getDocument</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Document.html">Document</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Document Id</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Document and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC12getDocuments4page0D4Size6sortBy7Combine12AnyPublisherVyAA12ResponseBodyVySayAA8DocumentVGGs5Error_pGSi_SiAM04SortG0OtF"></a>
+                    <a name="//apple_ref/swift/Method/getDocuments(page:pageSize:sortBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC12getDocuments4page0D4Size6sortBy7Combine12AnyPublisherVyAA12ResponseBodyVySayAA8DocumentVGGs5Error_pGSi_SiAM04SortG0OtF">getDocuments(page:<wbr>pageSize:<wbr>sortBy:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get Documents</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getDocuments</span><span class="p">(</span><span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">pageSize</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">sortBy</span><span class="p">:</span> <span class="kt"><a href="../Structs/Document.html">Document</a></span><span class="o">.</span><span class="kt">SortBy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/Document.html">Document</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>page</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Page</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pageSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Page Size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sortBy</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Sort option</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type of Document List and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC21getDocumentCategories7Combine12AnyPublisherVyAA12ResponseBodyVySayAA0C8CategoryVGGs5Error_pGyF"></a>
+                    <a name="//apple_ref/swift/Method/getDocumentCategories()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC21getDocumentCategories7Combine12AnyPublisherVyAA12ResponseBodyVySayAA0C8CategoryVGGs5Error_pGyF">getDocumentCategories()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get all document Types/Catgory</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getDocumentCategories</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/DocumentCategory.html">DocumentCategory</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type of Document Category List and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC14createDocument8document7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestI0V06CreateC0V_tF"></a>
+                    <a name="//apple_ref/swift/Method/createDocument(document:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC14createDocument8document7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestI0V06CreateC0V_tF">createDocument(document:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a Document</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createDocument</span><span class="p">(</span><span class="nv">document</span><span class="p">:</span> <span class="kt"><a href="../Structs/RequestBody.html">RequestBody</a></span><span class="o">.</span><span class="kt">CreateDocument</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Document.html">Document</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>document</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Document to be created</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type of Document and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC14updateDocument2id6fields7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_SStF"></a>
+                    <a name="//apple_ref/swift/Method/updateDocument(id:fields:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC14updateDocument2id6fields7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_SStF">updateDocument(id:<wbr>fields:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update a Document</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateDocument</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fields</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Document.html">Document</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Document Id to be updated</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fields</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Fields to be updated</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type of Document and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC16getRegisterationy7Combine12AnyPublisherVyAA12ResponseBodyVyAA12RegistrationVGs5Error_pGSSF"></a>
+                    <a name="//apple_ref/swift/Method/getRegisteration(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC16getRegisterationy7Combine12AnyPublisherVyAA12ResponseBodyVyAA12RegistrationVGs5Error_pGSSF">getRegisteration(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a Registration by it&rsquo;s Id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getRegisteration</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Registration.html">Registration</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Registration Id</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Registration and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC16getRegistrations4page0D4Size6sortBy5draft7Combine12AnyPublisherVyAA12ResponseBodyVySayAA12RegistrationVGGs5Error_pGSi_SiAN04SortG0OSbtF"></a>
+                    <a name="//apple_ref/swift/Method/getRegistrations(page:pageSize:sortBy:draft:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC16getRegistrations4page0D4Size6sortBy5draft7Combine12AnyPublisherVyAA12ResponseBodyVySayAA12RegistrationVGGs5Error_pGSi_SiAN04SortG0OSbtF">getRegistrations(page:<wbr>pageSize:<wbr>sortBy:<wbr>draft:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get Registerations</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getRegistrations</span><span class="p">(</span><span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">pageSize</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">sortBy</span><span class="p">:</span> <span class="kt"><a href="../Structs/Registration.html">Registration</a></span><span class="o">.</span><span class="kt">SortBy</span><span class="p">,</span> <span class="nv">draft</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/Registration.html">Registration</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>page</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Current page</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pageSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Page Size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sortBy</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Sort By</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>draft</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Draft</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Registration List and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC25getRegistrationCategories7Combine12AnyPublisherVyAA12ResponseBodyVySayAA0C8CategoryVGGs5Error_pGyF"></a>
+                    <a name="//apple_ref/swift/Method/getRegistrationCategories()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC25getRegistrationCategories7Combine12AnyPublisherVyAA12ResponseBodyVySayAA0C8CategoryVGGs5Error_pGyF">getRegistrationCategories()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get all Registeration Category</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getRegistrationCategories</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/RegistrationCategory.html">RegistrationCategory</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Registration Category and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC18createRegistrationy7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestH0V06CreateC0VF"></a>
+                    <a name="//apple_ref/swift/Method/createRegistration(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC18createRegistrationy7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestH0V06CreateC0VF">createRegistration(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create Registeration</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">createRegistration</span><span class="p">(</span><span class="n">_</span> <span class="nv">registration</span><span class="p">:</span> <span class="kt"><a href="../Structs/RequestBody.html">RequestBody</a></span><span class="o">.</span><span class="kt">CreateRegistration</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Registration.html">Registration</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>registration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Registration to be created</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Registration and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC10getSession2id7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/getSession(id:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC10getSession2id7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_tF">getSession(id:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a Session by it&rsquo;s Id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getSession</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Session.html">Session</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session Id</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AnyPublisher of type Session and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC11getSessions4page0D4Size6status6sortBy7Combine12AnyPublisherVyAA12ResponseBodyVySayAA7SessionVGGs5Error_pGSi_SiSSAN04SortH0OtF"></a>
+                    <a name="//apple_ref/swift/Method/getSessions(page:pageSize:status:sortBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC11getSessions4page0D4Size6status6sortBy7Combine12AnyPublisherVyAA12ResponseBodyVySayAA7SessionVGGs5Error_pGSi_SiSSAN04SortH0OtF">getSessions(page:<wbr>pageSize:<wbr>status:<wbr>sortBy:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get Sessions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getSessions</span><span class="p">(</span><span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">pageSize</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">sortBy</span><span class="p">:</span> <span class="kt"><a href="../Structs/Session.html">Session</a></span><span class="o">.</span><span class="kt">SortBy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="p">[</span><span class="kt"><a href="../Structs/Session.html">Session</a></span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>page</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Page</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pageSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Page size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>status</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Status</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sortBy</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Sort option</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns: AnyPublisher of type Session List and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC13createSession7session7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestI0V06CreateC0V_tF"></a>
+                    <a name="//apple_ref/swift/Method/createSession(session:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC13createSession7session7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGAA07RequestI0V06CreateC0V_tF">createSession(session:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create Session</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">createSession</span><span class="p">(</span><span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/RequestBody.html">RequestBody</a></span><span class="o">.</span><span class="kt">CreateSession</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Session.html">Session</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>session</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session to create</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns: AnyPublisher of type Session and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8TemplarsAAC17rescheduleSession2id7session7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_AA07RequestJ0V010RescheduleC0VtF"></a>
+                    <a name="//apple_ref/swift/Method/rescheduleSession(id:session:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8TemplarsAAC17rescheduleSession2id7session7Combine12AnyPublisherVyAA12ResponseBodyVyAA0C0VGs5Error_pGSS_AA07RequestJ0V010RescheduleC0VtF">rescheduleSession(id:<wbr>session:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reschedule a session</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">rescheduleSession</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/RequestBody.html">RequestBody</a></span><span class="o">.</span><span class="kt">RescheduleSession</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/ResponseBody.html">ResponseBody</a></span><span class="o">&lt;</span><span class="kt"><a href="../Structs/Session.html">Session</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session Id</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>session</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session Reschedule Object</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns: AnyPublisher of type Session and Error</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-02-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

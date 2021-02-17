@@ -9,6 +9,8 @@ import Foundation
 
 public extension RequestBody{
     
+    
+    /// Create Document
     struct CreateDocument: Codable {
         let name: String
         let draft: Bool
@@ -16,6 +18,14 @@ public extension RequestBody{
         let customerReference: String
         let categoryId: String
         
+        
+        /// Initializer
+        /// - Parameters:
+        ///   - name: Name of document
+        ///   - draft: Draft
+        ///   - fields: Fields
+        ///   - customerReference: Email or Id of User
+        ///   - categoryId: Id of document type/category
         public init(name: String, draft: Bool, fields: String,
                     customerReference: String, categoryId: String){
             self.name = name

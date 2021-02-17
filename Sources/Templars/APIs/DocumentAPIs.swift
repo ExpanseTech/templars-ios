@@ -12,6 +12,10 @@ import Combine
 @available(iOS 13.0, *)
 extension Templars{
     
+    
+    /// Get a Document by it's Id
+    /// - Parameter id: Document Id
+    /// - Returns: AnyPublisher of type Document and Error
     public func getDocument(id: String) -> AnyPublisher<ResponseBody<Document>, Error> {
         let url = URL(string: String(format: URLs.Templars.getDocument, id) )!
         var urlRequest = URLRequest(url: url)
@@ -20,6 +24,13 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    
+    /// Get Documents
+    /// - Parameters:
+    ///   - page: Page
+    ///   - pageSize: Page Size
+    ///   - sortBy: Sort option
+    /// - Returns: AnyPublisher of type of Document List and Error
     public func getDocuments(page: Int, pageSize: Int, sortBy: Document.SortBy) -> AnyPublisher<ResponseBody<[Document]>, Error> {
         let url = URL(string: URLs.Templars.getDocuments)!
         
@@ -32,12 +43,19 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    
+    /// Get all document Types/Catgory
+    /// - Returns: AnyPublisher of type of Document Category List and Error
     public func getDocumentCategories() -> AnyPublisher<ResponseBody<[DocumentCategory]>, Error> {
         let url = URL(string: URLs.Templars.getPublicDocumentCategories)!
         let urlRequest = URLRequest(url: url)
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    
+    /// Create a Document
+    /// - Parameter document: Document to be created
+    /// - Returns: AnyPublisher of type of Document and Error
     public func createDocument(document: RequestBody.CreateDocument) -> AnyPublisher<ResponseBody<Document>, Error> {
         let url = URL(string: URLs.Templars.createDocument)!
         
@@ -50,6 +68,12 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    
+    /// Update a Document
+    /// - Parameters:
+    ///   - id: Document Id to be updated
+    ///   - fields: Fields to be updated
+    /// - Returns: AnyPublisher of type of Document and Error
     public func updateDocument(id: String, fields: String) -> AnyPublisher<ResponseBody<Document>, Error> {
         let urlString = String(format: URLs.Templars.updateDocument, id)
         let url = URL(string: urlString)!
@@ -62,6 +86,9 @@ extension Templars{
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
+    
+    /// Delete a Document
+    /// Not Implemented
     private func deleteDocument(id: String) -> AnyPublisher<Document, Error> {
         let url = URL(string: String(format: URLs.Templars.deleteDocument, id) )!
         

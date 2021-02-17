@@ -7,12 +7,15 @@
 
 import Foundation
 
+///General Response from format from Templars API server
 public struct ResponseBody<T: Decodable>: Decodable {
     public let message: String
     public let data: T
     public let meta: Meta?
 }
 
+
+/// Optional information about a data in ResponseBody
 public struct Meta: Decodable{
     let perPage: Int
     let total: Int
