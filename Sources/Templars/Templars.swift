@@ -16,14 +16,14 @@ import Combine
 public class Templars {
     
     /// API key
-    let apiKey: String
+    public static var apiKey: String = ""
     let networkHelper: NetworkHelper
     
+    public static let instance = Templars()
     
     /// Initializer
     /// - Parameter apiKey: API key
-    public init(apiKey: String) {
-        self.apiKey = apiKey
+    private init() {
         networkHelper = NetworkHelper()
     }
     

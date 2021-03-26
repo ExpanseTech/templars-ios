@@ -20,7 +20,7 @@ public extension Templars{
         let urlString = String(format: URLs.Templars.getSession, id)
         let url = URL(string: urlString)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.httpMethod = "GET"
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
@@ -37,7 +37,7 @@ public extension Templars{
         let url = URL(string: URLs.Templars.getSessions)!
         var urlRequest = URLRequest(url: url)
         urlRequest.addPagenation(page: page, pageSize: pageSize, sortBy: sortBy.rawValue)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.httpMethod = "GET"
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
@@ -49,7 +49,7 @@ public extension Templars{
     func createSession(session: RequestBody.CreateSession) -> AnyPublisher<ResponseBody<Session>, Error>{
         let url = URL(string: URLs.Templars.createSession)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.setPostMethod()
         let body = try! JSONEncoder().encode(session)
         urlRequest.httpBody = body
@@ -66,7 +66,7 @@ public extension Templars{
         let urlString = String(format: URLs.Templars.rescheduleSession, id)
         let url = URL(string: urlString)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.setPutMethod()
         let body = try! JSONEncoder().encode(session)
         urlRequest.httpBody = body

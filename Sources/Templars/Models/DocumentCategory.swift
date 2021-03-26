@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct DocumentCategory{
+public struct DocumentCategory: Identifiable{
     public let id: String
     public let isActive: Bool
     public let createdAt: Date
@@ -15,12 +15,27 @@ public struct DocumentCategory{
     public let name: String
     public let slug: String
     public let description: String
+    public var template: String?
     public let isPublic: Bool
     public let price: Double
     private let parentList: [DocumentCategory]?
     public var parent: DocumentCategory? {
         parentList?.first
     }
+
+    public lazy var fields: [Field] = {
+        var f: [Field] = []
+        if let data = template?.data(using: .utf8){
+            let template = try? JSONDecoder().decode(Template.self, from: data)
+            if let node = template?.nodes{
+                f.append(contentsOf: Field.getEditableFields(fields: node))
+            }
+            if let orphans = template?.orphans {
+                f.append(contentsOf: Field.getEditableFields(fields: orphans))
+            }
+        }
+        return f
+    }()
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -28,6 +43,7 @@ public struct DocumentCategory{
         case name
         case slug
         case description
+        case template
         case isPublic = "public"
         case price
         case createdAt
@@ -55,5 +71,6 @@ extension DocumentCategory: Decodable{
         }else{
             parentList = nil
         }
+        template = try value.decodeIfPresent(String.self, forKey: .template)
     }
 }

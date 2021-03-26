@@ -11,4 +11,8 @@ import Foundation
 /// API Error Respose
 public struct ApiError: Decodable, Error {
     public let message: String
+
+    init(message: String){
+        self.message = message
+    }
 }

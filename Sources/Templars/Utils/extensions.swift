@@ -18,6 +18,17 @@ extension String{
         dateFormatter.dateFormat = format
         return dateFormatter.date(from: self)
     }
+
+    func isFormated(_ format: String) -> Bool{
+        let dateFormatterGet = DateFormatter()
+        dateFormatterGet.dateFormat = format
+
+        if dateFormatterGet.date(from: self) != nil {
+            return true
+        } else {
+            return false
+        }
+    }
 }
 
 public extension Date{

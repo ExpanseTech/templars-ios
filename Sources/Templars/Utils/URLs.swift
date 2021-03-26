@@ -16,6 +16,7 @@ struct URLs {
         
         //MARK: Category APIs
         static let getPublicDocumentCategories = "\(baseURL)/api/v1/document-categories/public"
+        static let getDocumentCategory = "\(baseURL)/api/v1/document-categories/%@"
         
         //MARK: Documents API
         static let getDocuments = "\(baseURL)/api/v1/documents/me"

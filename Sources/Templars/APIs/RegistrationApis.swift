@@ -20,7 +20,7 @@ public extension Templars{
         let urlString = String(format: URLs.Templars.getRegistration, id)
         let url = URL(string: urlString)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
@@ -35,7 +35,7 @@ public extension Templars{
     func getRegistrations(page: Int, pageSize: Int, sortBy: Registration.SortBy, draft: Bool) -> AnyPublisher<ResponseBody<[Registration]>, Error> {
         let url = URL(string: URLs.Templars.getRegistrations)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.addPagenation(page: page, pageSize: pageSize, sortBy: sortBy.rawValue)
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
@@ -46,7 +46,7 @@ public extension Templars{
     func getRegistrationCategories() -> AnyPublisher<ResponseBody<[RegistrationCategory]>, Error>{
         let url = URL(string: URLs.Templars.getRegistrationCategories)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         return networkHelper.urlCall(urlRequest: urlRequest)
     }
     
@@ -57,7 +57,7 @@ public extension Templars{
     func createRegistration(_ registration: RequestBody.CreateRegistration) -> AnyPublisher<ResponseBody<Registration>, Error>{
         let url = URL(string: URLs.Templars.createRegistration)!
         var urlRequest = URLRequest(url: url)
-        urlRequest.addAPIKey(apiKey)
+        urlRequest.addAPIKey(Templars.apiKey)
         urlRequest.setPostMethod()
         let body = try? JSONEncoder().encode(registration)
         urlRequest.httpBody = body

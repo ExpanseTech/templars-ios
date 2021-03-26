@@ -25,7 +25,12 @@ struct NetworkHelper {
                 let decoder: JSONDecoder = JSONDecoder()
                 guard let response = result.response as? HTTPURLResponse,
                       (200...299).contains(response.statusCode) else{
-                    let error = try decoder.decode(ApiError.self, from: result.data)
+                    var error: Error
+                    if let response = result.response as? HTTPURLResponse, (500...599).contains(response.statusCode){
+                        error = ApiError(message: "Service Error")
+                    }else{
+                        error = try decoder.decode(ApiError.self, from: result.data)
+                    }
                     throw error
                 }
                 //let ss = String(data: result.data, encoding: .utf8)
