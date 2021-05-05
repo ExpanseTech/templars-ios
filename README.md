@@ -26,8 +26,9 @@ let package = Package(
 
 ## Usage
 Add the line below in your app's ```build.gradle```
-```kotlin
-let templars = Templars(apiKey: "<API_key>")
+```swift
+Templars.apiKey = "<API_key>"
+let templars = Templars.instance
 
 templer.getDocuments(page: 1, pageSize: 10, sortBy: .dateAccending)
             .sink { (error) in
