@@ -33,12 +33,11 @@ struct NetworkHelper {
                     }
                     throw error
                 }
-                //let ss = String(data: result.data, encoding: .utf8)
                 return try decoder.decode(T.self, from: result.data)
             }
             .tryCatch{ error -> AnyPublisher<T, ApiError> in
 
-                throw error //ApiError(property: "", message: error.localizedDecription)
+                throw error
             }
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()

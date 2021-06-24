@@ -148,17 +148,9 @@ extension Array where Element == Field{
 
     public func validate() -> (Bool, String?) {
 
-//        self.forEach { (field) in
-//            let valid = field.isValid()
-//            if !field.isValid(){
-//                return //(false, "\(field.id ?? ""): value not valid")
-//            }
-//        }
-
         for field in self{
-            let valid = field.isValid()
             if !field.isValid(){
-                return (false, "\(field.id ?? ""): value not valid")
+                return (false, "\(field.label ?? "")(\(field.id ?? "")): value not valid")
             }
         }
 
